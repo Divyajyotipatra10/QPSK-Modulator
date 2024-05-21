@@ -28,15 +28,22 @@ Functionining of Modulator:
 In a QPSK modulator, two sine waves and cosine waves are generated, each with a frequency of 960 kHz. The sine wave is modulated with even bits, while the cosine wave is modulated with odd bits. When the data bit is '1', there is no phase shift applied to either wave. However, when the data bit is '0', both waves experience a phase shift of 180 degrees. These modulated outputs are combined using a summer circuit to produce the final QPSK output signal. This method allows for efficient transmission of digital data by encoding two bits per symbol, leveraging both the amplitude and phase of the carrier waves.
 
 QPSK output for bitstream [00101100]:
+
 ![00101100](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/718e8c3d-c0c4-4580-bbee-a3dfdb94c53f)
 
 The look up table for sine and cosine waves can be generated using MATLAB.
 
+
 ![WhatsApp Image 2024-05-21 at 16 56 45_3caf2b74](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/4dea6151-ba2c-4aa7-b278-e19a74dfb2a8)
+
 
 ![sinewaveLUTgeneratoroutput](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/1b678703-5dd0-4b76-8ef4-c239f41c824a)
 
+
+
 For verifying the verilog code we can write a MATLAB code for the same functionality.
+
+
 ![11110000 matlab sim](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/1a654039-717d-4563-9510-ff802ca8b51e)
 
 
