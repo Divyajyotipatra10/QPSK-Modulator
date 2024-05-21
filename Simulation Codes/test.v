@@ -11,7 +11,7 @@ module test(
     end
     initial begin
         ld<=1'b1;
-        data<=8'b00101100;//0110//0010
+        data<=8'b00101100;//0110//0010 //modifiable value. Supports 8 bit data
         #25
         ld<=1'b0;
         #9000
