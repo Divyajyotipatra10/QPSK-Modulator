@@ -5,6 +5,7 @@ Quadrature Phase Shift Keying (QPSK) is a modulation technique used in digital c
 ![QPSK Example waveform](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/0acbe60a-e9ae-426e-80b4-1645099ebb67)
 
 Hardware Block Diagram:
+
 ![Schematic Of FInal QPSK Mod](https://github.com/Divyajyotipatra10/QPSK-Modulator/assets/165509472/ce25a7f9-3712-47d2-b5e4-06ee90cc0861)
 
 Functioning of bit splitter:
